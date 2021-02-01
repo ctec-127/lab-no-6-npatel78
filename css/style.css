@@ -22,3 +22,14 @@ input[type=submit] {
     padding: 10px;
     font-size: 1em;
 }
+
+.message {
+    animation: blinker 2s linear infinite;
+    color: red;
+}
+
+@keyframes blinker {
+    15% {
+        opacity: 0;
+    }
+}
